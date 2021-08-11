@@ -18,7 +18,7 @@ public class CalculatorFunctionalityTest {
 
     @BeforeMethod
     public void initiate() {
-        Driver.getDriver().get(PropertiesReader.getProperty("environment"));
+        Driver.getDriver().get(PropertiesReader.getProperty("production"));
         Driver.getDriver().manage().window().maximize();
         Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         calcPage = new CaclulatorPage();
@@ -104,7 +104,7 @@ public class CalculatorFunctionalityTest {
         calcPage.number(0).click();
         calcPage.number(1).click();
         calcPage.divideButton.click();
-        calcPage.multiplyButton.click();
+        calcPage.addButton.click();
         calcPage.number(0).click();
         calcPage.flPointButton.click();
         calcPage.number(0).click();
@@ -115,7 +115,7 @@ public class CalculatorFunctionalityTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        Assert.assertEquals(calcPage.displayField.getText(),"0.01");
+        Assert.assertEquals(calcPage.displayField.getText(),"1.01");
     }
     @Test(priority = 6)
     public void clearButtonTest() {
