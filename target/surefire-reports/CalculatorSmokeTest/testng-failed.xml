@@ -6,14 +6,13 @@
       <class name="tests.CalculatorFunctionalityTest">
         <methods>
           <include name="clearButtonTest"/>
-          <include name="subtractTest"/>
-          <include name="multiplyTest"/>
+          <include name="subtractTest" invocation-numbers="0"/>
+          <include name="multiplyTest" invocation-numbers="0 1 2 3 4"/>
           <include name="initiate"/>
           <include name="changeActionTest"/>
-          <include name="divideTest"/>
+          <include name="divideTest" invocation-numbers="0 1 3"/>
           <include name="tearDown"/>
-          <include name="addTest"/>
-          <include name="floatingPointTest"/>
+          <include name="addTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- tests.CalculatorFunctionalityTest -->
     </classes>

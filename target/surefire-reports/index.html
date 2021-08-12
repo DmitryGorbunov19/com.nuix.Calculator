@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-CalculatorSmokeTest" class="navigator-link">
-              <span class="suite-name border-passed">CalculatorSmokeTest</span>
+              <span class="suite-name border-failed">CalculatorSmokeTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,76 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">23 methods,   23 passed</span>
+                    <span class="method-stats">23 methods, 12 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CalculatorSmokeTest" class="hide-methods failed suite-CalculatorSmokeTest"> (hide)</a> <!-- hide-methods failed suite-CalculatorSmokeTest -->
+                      <a href="#" panel-name="suite-CalculatorSmokeTest" class="show-methods failed suite-CalculatorSmokeTest"> (show)</a> <!-- show-methods failed suite-CalculatorSmokeTest -->
+                    </span>
+                    <div class="method-list-content failed suite-CalculatorSmokeTest">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="addTest(1, 5, 6, -4, 5, 0.2)">addTest(1, 5, 6, -4, 5, 0.2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="changeActionTest">changeActionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="clearButtonTest">clearButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="divideTest(1, 5, 6, -4, 5, 0.2)">divideTest(1, 5, 6, -4, 5, 0.2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="divideTest(2, 4, 6, -2, 8, 0.5)">divideTest(2, 4, 6, -2, 8, 0.5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="divideTest(7, 8, 15, -1, 56, 0.875)">divideTest(7, 8, 15, -1, 56, 0.875)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="multiplyTest(1, 5, 6, -4, 5, 0.2)">multiplyTest(1, 5, 6, -4, 5, 0.2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="multiplyTest(6, 0, 6, 6, 0, Error)">multiplyTest(6, 0, 6, 6, 0, Error)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="multiplyTest(2, 4, 6, -2, 8, 0.5)">multiplyTest(2, 4, 6, -2, 8, 0.5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="multiplyTest(9, 3, 12, 6, 27, 3)">multiplyTest(9, 3, 12, 6, 27, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="multiplyTest(7, 8, 15, -1, 56, 0.875)">multiplyTest(7, 8, 15, -1, 56, 0.875)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="subtractTest(1, 5, 6, -4, 5, 0.2)">subtractTest(1, 5, 6, -4, 5, 0.2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CalculatorSmokeTest -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +173,12 @@
                     <div class="method-list-content passed suite-CalculatorSmokeTest">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="addTest(7, 8, 15, -1, 56, 0.875)">addTest(7, 8, 15, -1, 56, 0.875)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="addTest(2, 4, 6, -2, 8, 0.5)">addTest(2, 4, 6, -2, 8, 0.5)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="addTest(9, 3, 12, 6, 27, 3)">addTest(9, 3, 12, 6, 27, 3)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="addTest(7, 8, 15, -1, 56, 0.875)">addTest(7, 8, 15, -1, 56, 0.875)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -124,17 +188,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="addTest(1, 5, 6, -4, 5, 0.2)">addTest(1, 5, 6, -4, 5, 0.2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="changeActionTest">changeActionTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="clearButtonTest">clearButtonTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="addTest(9, 3, 12, 6, 27, 3)">addTest(9, 3, 12, 6, 27, 3)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -149,57 +203,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="divideTest(1, 5, 6, -4, 5, 0.2)">divideTest(1, 5, 6, -4, 5, 0.2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="divideTest(2, 4, 6, -2, 8, 0.5)">divideTest(2, 4, 6, -2, 8, 0.5)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="divideTest(7, 8, 15, -1, 56, 0.875)">divideTest(7, 8, 15, -1, 56, 0.875)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="floatingPointTest">floatingPointTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="multiplyTest(7, 8, 15, -1, 56, 0.875)">multiplyTest(7, 8, 15, -1, 56, 0.875)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="multiplyTest(9, 3, 12, 6, 27, 3)">multiplyTest(9, 3, 12, 6, 27, 3)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="multiplyTest(1, 5, 6, -4, 5, 0.2)">multiplyTest(1, 5, 6, -4, 5, 0.2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="multiplyTest(6, 0, 6, 6, 0, Error)">multiplyTest(6, 0, 6, 6, 0, Error)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="multiplyTest(2, 4, 6, -2, 8, 0.5)">multiplyTest(2, 4, 6, -2, 8, 0.5)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="subtractTest(6, 0, 6, 6, 0, Error)">subtractTest(6, 0, 6, 6, 0, Error)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="subtractTest(9, 3, 12, 6, 27, 3)">subtractTest(9, 3, 12, 6, 27, 3)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -214,7 +218,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="subtractTest(1, 5, 6, -4, 5, 0.2)">subtractTest(1, 5, 6, -4, 5, 0.2)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="subtractTest(9, 3, 12, 6, 27, 3)">subtractTest(9, 3, 12, 6, 27, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CalculatorSmokeTest" title="tests.CalculatorFunctionalityTest" class="method navigator-link" hash-for-method="subtractTest(6, 0, 6, 6, 0, Error)">subtractTest(6, 0, 6, 6, 0, Error)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-CalculatorSmokeTest -->
@@ -229,20 +238,223 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-CalculatorSmokeTest" class="panel CalculatorSmokeTest">
+          <div class="suite-CalculatorSmokeTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.CalculatorFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTest(1, 5, 6, -4, 5, 0.2)">
+                  </a> <!-- addTest(1, 5, 6, -4, 5, 0.2) -->
+                  <span class="method-name">addTest</span>
+                  <span class="parameters">(1, 5, 6, -4, 5, 0.2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [6] but found [7]
+	at tests.CalculatorFunctionalityTest.addTest(CalculatorFunctionalityTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeActionTest">
+                  </a> <!-- changeActionTest -->
+                  <span class="method-name">changeActionTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1.01] but found [1]
+	at tests.CalculatorFunctionalityTest.changeActionTest(CalculatorFunctionalityTest.java:118)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clearButtonTest">
+                  </a> <!-- clearButtonTest -->
+                  <span class="method-name">clearButtonTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [123456789] but found [123466789]
+	at tests.CalculatorFunctionalityTest.clearButtonTest(CalculatorFunctionalityTest.java:130)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divideTest(1, 5, 6, -4, 5, 0.2)">
+                  </a> <!-- divideTest(1, 5, 6, -4, 5, 0.2) -->
+                  <span class="method-name">divideTest</span>
+                  <span class="parameters">(1, 5, 6, -4, 5, 0.2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0.2] but found [0]
+	at tests.CalculatorFunctionalityTest.divideTest(CalculatorFunctionalityTest.java:83)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divideTest(2, 4, 6, -2, 8, 0.5)">
+                  </a> <!-- divideTest(2, 4, 6, -2, 8, 0.5) -->
+                  <span class="method-name">divideTest</span>
+                  <span class="parameters">(2, 4, 6, -2, 8, 0.5)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0.5] but found [1]
+	at tests.CalculatorFunctionalityTest.divideTest(CalculatorFunctionalityTest.java:83)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divideTest(7, 8, 15, -1, 56, 0.875)">
+                  </a> <!-- divideTest(7, 8, 15, -1, 56, 0.875) -->
+                  <span class="method-name">divideTest</span>
+                  <span class="parameters">(7, 8, 15, -1, 56, 0.875)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0.875] but found [1]
+	at tests.CalculatorFunctionalityTest.divideTest(CalculatorFunctionalityTest.java:83)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplyTest(1, 5, 6, -4, 5, 0.2)">
+                  </a> <!-- multiplyTest(1, 5, 6, -4, 5, 0.2) -->
+                  <span class="method-name">multiplyTest</span>
+                  <span class="parameters">(1, 5, 6, -4, 5, 0.2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [5] but found [8]
+	at tests.CalculatorFunctionalityTest.multiplyTest(CalculatorFunctionalityTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplyTest(6, 0, 6, 6, 0, Error)">
+                  </a> <!-- multiplyTest(6, 0, 6, 6, 0, Error) -->
+                  <span class="method-name">multiplyTest</span>
+                  <span class="parameters">(6, 0, 6, 6, 0, Error)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [0] but found [2]
+	at tests.CalculatorFunctionalityTest.multiplyTest(CalculatorFunctionalityTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplyTest(2, 4, 6, -2, 8, 0.5)">
+                  </a> <!-- multiplyTest(2, 4, 6, -2, 8, 0.5) -->
+                  <span class="method-name">multiplyTest</span>
+                  <span class="parameters">(2, 4, 6, -2, 8, 0.5)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [8] but found [10]
+	at tests.CalculatorFunctionalityTest.multiplyTest(CalculatorFunctionalityTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplyTest(9, 3, 12, 6, 27, 3)">
+                  </a> <!-- multiplyTest(9, 3, 12, 6, 27, 3) -->
+                  <span class="method-name">multiplyTest</span>
+                  <span class="parameters">(9, 3, 12, 6, 27, 3)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [27] but found [29]
+	at tests.CalculatorFunctionalityTest.multiplyTest(CalculatorFunctionalityTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplyTest(7, 8, 15, -1, 56, 0.875)">
+                  </a> <!-- multiplyTest(7, 8, 15, -1, 56, 0.875) -->
+                  <span class="method-name">multiplyTest</span>
+                  <span class="parameters">(7, 8, 15, -1, 56, 0.875)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [56] but found [58]
+	at tests.CalculatorFunctionalityTest.multiplyTest(CalculatorFunctionalityTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subtractTest(1, 5, 6, -4, 5, 0.2)">
+                  </a> <!-- subtractTest(1, 5, 6, -4, 5, 0.2) -->
+                  <span class="method-name">subtractTest</span>
+                  <span class="parameters">(1, 5, 6, -4, 5, 0.2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [-4] but found [-5]
+	at tests.CalculatorFunctionalityTest.subtractTest(CalculatorFunctionalityTest.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSmokeTest-class-failed -->
           <div class="suite-CalculatorSmokeTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">tests.CalculatorFunctionalityTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addTest(7, 8, 15, -1, 56, 0.875)">
-                  </a> <!-- addTest(7, 8, 15, -1, 56, 0.875) -->
-                  <span class="method-name">addTest</span>
-                  <span class="parameters">(7, 8, 15, -1, 56, 0.875)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="addTest(2, 4, 6, -2, 8, 0.5)">
@@ -253,10 +465,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="addTest(9, 3, 12, 6, 27, 3)">
-                  </a> <!-- addTest(9, 3, 12, 6, 27, 3) -->
+                  <a name="addTest(7, 8, 15, -1, 56, 0.875)">
+                  </a> <!-- addTest(7, 8, 15, -1, 56, 0.875) -->
                   <span class="method-name">addTest</span>
-                  <span class="parameters">(9, 3, 12, 6, 27, 3)</span>
+                  <span class="parameters">(7, 8, 15, -1, 56, 0.875)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -269,24 +481,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="addTest(1, 5, 6, -4, 5, 0.2)">
-                  </a> <!-- addTest(1, 5, 6, -4, 5, 0.2) -->
+                  <a name="addTest(9, 3, 12, 6, 27, 3)">
+                  </a> <!-- addTest(9, 3, 12, 6, 27, 3) -->
                   <span class="method-name">addTest</span>
-                  <span class="parameters">(1, 5, 6, -4, 5, 0.2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="changeActionTest">
-                  </a> <!-- changeActionTest -->
-                  <span class="method-name">changeActionTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="clearButtonTest">
-                  </a> <!-- clearButtonTest -->
-                  <span class="method-name">clearButtonTest</span>
+                  <span class="parameters">(9, 3, 12, 6, 27, 3)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -307,89 +505,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="divideTest(1, 5, 6, -4, 5, 0.2)">
-                  </a> <!-- divideTest(1, 5, 6, -4, 5, 0.2) -->
-                  <span class="method-name">divideTest</span>
-                  <span class="parameters">(1, 5, 6, -4, 5, 0.2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="divideTest(2, 4, 6, -2, 8, 0.5)">
-                  </a> <!-- divideTest(2, 4, 6, -2, 8, 0.5) -->
-                  <span class="method-name">divideTest</span>
-                  <span class="parameters">(2, 4, 6, -2, 8, 0.5)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="divideTest(7, 8, 15, -1, 56, 0.875)">
-                  </a> <!-- divideTest(7, 8, 15, -1, 56, 0.875) -->
-                  <span class="method-name">divideTest</span>
-                  <span class="parameters">(7, 8, 15, -1, 56, 0.875)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="floatingPointTest">
                   </a> <!-- floatingPointTest -->
                   <span class="method-name">floatingPointTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="multiplyTest(7, 8, 15, -1, 56, 0.875)">
-                  </a> <!-- multiplyTest(7, 8, 15, -1, 56, 0.875) -->
-                  <span class="method-name">multiplyTest</span>
-                  <span class="parameters">(7, 8, 15, -1, 56, 0.875)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="multiplyTest(9, 3, 12, 6, 27, 3)">
-                  </a> <!-- multiplyTest(9, 3, 12, 6, 27, 3) -->
-                  <span class="method-name">multiplyTest</span>
-                  <span class="parameters">(9, 3, 12, 6, 27, 3)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="multiplyTest(1, 5, 6, -4, 5, 0.2)">
-                  </a> <!-- multiplyTest(1, 5, 6, -4, 5, 0.2) -->
-                  <span class="method-name">multiplyTest</span>
-                  <span class="parameters">(1, 5, 6, -4, 5, 0.2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="multiplyTest(6, 0, 6, 6, 0, Error)">
-                  </a> <!-- multiplyTest(6, 0, 6, 6, 0, Error) -->
-                  <span class="method-name">multiplyTest</span>
-                  <span class="parameters">(6, 0, 6, 6, 0, Error)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="multiplyTest(2, 4, 6, -2, 8, 0.5)">
-                  </a> <!-- multiplyTest(2, 4, 6, -2, 8, 0.5) -->
-                  <span class="method-name">multiplyTest</span>
-                  <span class="parameters">(2, 4, 6, -2, 8, 0.5)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="subtractTest(6, 0, 6, 6, 0, Error)">
-                  </a> <!-- subtractTest(6, 0, 6, 6, 0, Error) -->
-                  <span class="method-name">subtractTest</span>
-                  <span class="parameters">(6, 0, 6, 6, 0, Error)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="subtractTest(9, 3, 12, 6, 27, 3)">
-                  </a> <!-- subtractTest(9, 3, 12, 6, 27, 3) -->
-                  <span class="method-name">subtractTest</span>
-                  <span class="parameters">(9, 3, 12, 6, 27, 3)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -410,10 +528,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="subtractTest(1, 5, 6, -4, 5, 0.2)">
-                  </a> <!-- subtractTest(1, 5, 6, -4, 5, 0.2) -->
+                  <a name="subtractTest(9, 3, 12, 6, 27, 3)">
+                  </a> <!-- subtractTest(9, 3, 12, 6, 27, 3) -->
                   <span class="method-name">subtractTest</span>
-                  <span class="parameters">(1, 5, 6, -4, 5, 0.2)</span>
+                  <span class="parameters">(9, 3, 12, 6, 27, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subtractTest(6, 0, 6, 6, 0, Error)">
+                  </a> <!-- subtractTest(6, 0, 6, 6, 0, Error) -->
+                  <span class="method-name">subtractTest</span>
+                  <span class="parameters">(6, 0, 6, 6, 0, Error)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -474,95 +600,95 @@ data.addRows(23);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'changeActionTest')
 data.setCell(0, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(0, 3, 2331);
+data.setCell(0, 3, 2353);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'floatingPointTest')
 data.setCell(1, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(1, 3, 2300);
+data.setCell(1, 3, 2301);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'clearButtonTest')
 data.setCell(2, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(2, 3, 540);
+data.setCell(2, 3, 407);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'divideTest')
 data.setCell(3, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(3, 3, 255);
+data.setCell(3, 3, 245);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'addTest')
 data.setCell(4, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(4, 3, 222);
+data.setCell(4, 3, 240);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'multiplyTest')
 data.setCell(5, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(5, 3, 207);
+data.setCell(5, 3, 227);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'addTest')
 data.setCell(6, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(6, 3, 207);
+data.setCell(6, 3, 213);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'addTest')
 data.setCell(7, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(7, 3, 202);
+data.setCell(7, 3, 208);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'addTest')
+data.setCell(8, 1, 'subtractTest')
 data.setCell(8, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(8, 3, 200);
+data.setCell(8, 3, 208);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'divideTest')
+data.setCell(9, 1, 'subtractTest')
 data.setCell(9, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(9, 3, 200);
+data.setCell(9, 3, 206);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'multiplyTest')
+data.setCell(10, 1, 'addTest')
 data.setCell(10, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(10, 3, 198);
+data.setCell(10, 3, 205);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'multiplyTest')
 data.setCell(11, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(11, 3, 196);
+data.setCell(11, 3, 205);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'divideTest')
 data.setCell(12, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(12, 3, 195);
+data.setCell(12, 3, 201);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'subtractTest')
+data.setCell(13, 1, 'addTest')
 data.setCell(13, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(13, 3, 194);
+data.setCell(13, 3, 197);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'divideTest')
+data.setCell(14, 1, 'multiplyTest')
 data.setCell(14, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(14, 3, 191);
+data.setCell(14, 3, 197);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'subtractTest')
+data.setCell(15, 1, 'divideTest')
 data.setCell(15, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(15, 3, 188);
+data.setCell(15, 3, 196);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'divideTest')
+data.setCell(16, 1, 'subtractTest')
 data.setCell(16, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(16, 3, 187);
+data.setCell(16, 3, 192);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'subtractTest')
+data.setCell(17, 1, 'multiplyTest')
 data.setCell(17, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(17, 3, 186);
+data.setCell(17, 3, 192);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'subtractTest')
+data.setCell(18, 1, 'multiplyTest')
 data.setCell(18, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(18, 3, 184);
+data.setCell(18, 3, 192);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'addTest')
+data.setCell(19, 1, 'subtractTest')
 data.setCell(19, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(19, 3, 183);
+data.setCell(19, 3, 189);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'multiplyTest')
+data.setCell(20, 1, 'divideTest')
 data.setCell(20, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(20, 3, 182);
+data.setCell(20, 3, 189);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'multiplyTest')
+data.setCell(21, 1, 'divideTest')
 data.setCell(21, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(21, 3, 182);
+data.setCell(21, 3, 188);
 data.setCell(22, 0, 22)
 data.setCell(22, 1, 'subtractTest')
 data.setCell(22, 2, 'tests.CalculatorFunctionalityTest')
-data.setCell(22, 3, 182);
+data.setCell(22, 3, 184);
 window.suiteTableData['CalculatorSmokeTest']= { tableData: data, tableDiv: 'times-div-CalculatorSmokeTest'}
 return data;
 }
@@ -599,276 +725,300 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">addTest(1, 5, 6, -4, 5, 0.2)</span>
-                <span class="method-start">2141 ms</span>
+                <span class="method-start">1977 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">2364 ms</span>
+                <span class="method-start">2232 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">2439 ms</span>
+                <span class="method-start">2359 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addTest(2, 4, 6, -2, 8, 0.5)</span>
-                <span class="method-start">3132 ms</span>
+                <span class="method-start">3047 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">3333 ms</span>
+                <span class="method-start">3255 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">3410 ms</span>
+                <span class="method-start">3332 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addTest(9, 3, 12, 6, 27, 3)</span>
-                <span class="method-start">4088 ms</span>
+                <span class="method-start">4036 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4290 ms</span>
+                <span class="method-start">4249 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">4367 ms</span>
+                <span class="method-start">4325 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addTest(7, 8, 15, -1, 56, 0.875)</span>
-                <span class="method-start">5084 ms</span>
+                <span class="method-start">5028 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5291 ms</span>
+                <span class="method-start">5234 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">5369 ms</span>
+                <span class="method-start">5310 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addTest(6, 0, 6, 6, 0, Error)</span>
-                <span class="method-start">6059 ms</span>
+                <span class="method-start">6001 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6242 ms</span>
+                <span class="method-start">6199 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">6316 ms</span>
+                <span class="method-start">6277 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">subtractTest(1, 5, 6, -4, 5, 0.2)</span>
-                <span class="method-start">6996 ms</span>
+                <span class="method-start">6979 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7190 ms</span>
+                <span class="method-start">7169 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">7269 ms</span>
+                <span class="method-start">7243 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">subtractTest(2, 4, 6, -2, 8, 0.5)</span>
-                <span class="method-start">7944 ms</span>
+                <span class="method-start">7923 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8132 ms</span>
+                <span class="method-start">8131 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">8209 ms</span>
+                <span class="method-start">8205 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">subtractTest(9, 3, 12, 6, 27, 3)</span>
-                <span class="method-start">8918 ms</span>
+                <span class="method-start">8913 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9105 ms</span>
+                <span class="method-start">9106 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">9184 ms</span>
+                <span class="method-start">9185 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">subtractTest(7, 8, 15, -1, 56, 0.875)</span>
-                <span class="method-start">9910 ms</span>
+                <span class="method-start">10068 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10092 ms</span>
+                <span class="method-start">10274 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">10168 ms</span>
+                <span class="method-start">10344 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">subtractTest(6, 0, 6, 6, 0, Error)</span>
-                <span class="method-start">10873 ms</span>
+                <span class="method-start">11042 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11057 ms</span>
+                <span class="method-start">11227 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">11135 ms</span>
+                <span class="method-start">11299 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">multiplyTest(1, 5, 6, -4, 5, 0.2)</span>
-                <span class="method-start">11814 ms</span>
+                <span class="method-start">11988 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12021 ms</span>
+                <span class="method-start">12215 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">12091 ms</span>
+                <span class="method-start">12293 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">multiplyTest(2, 4, 6, -2, 8, 0.5)</span>
-                <span class="method-start">12781 ms</span>
+                <span class="method-start">12953 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12979 ms</span>
+                <span class="method-start">13158 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">13052 ms</span>
+                <span class="method-start">13233 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">multiplyTest(9, 3, 12, 6, 27, 3)</span>
-                <span class="method-start">13719 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
                 <span class="method-start">13915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14107 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">13992 ms</span>
+                <span class="method-start">14183 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">multiplyTest(7, 8, 15, -1, 56, 0.875)</span>
-                <span class="method-start">14658 ms</span>
+                <span class="method-start">14871 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14840 ms</span>
+                <span class="method-start">15063 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">14919 ms</span>
+                <span class="method-start">15135 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">multiplyTest(6, 0, 6, 6, 0, Error)</span>
-                <span class="method-start">15622 ms</span>
+                <span class="method-start">15829 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15804 ms</span>
+                <span class="method-start">16026 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">15880 ms</span>
+                <span class="method-start">16100 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">divideTest(1, 5, 6, -4, 5, 0.2)</span>
-                <span class="method-start">16548 ms</span>
+                <span class="method-start">16811 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16748 ms</span>
+                <span class="method-start">16999 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">16826 ms</span>
+                <span class="method-start">17074 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">divideTest(2, 4, 6, -2, 8, 0.5)</span>
-                <span class="method-start">17527 ms</span>
+                <span class="method-start">17722 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17718 ms</span>
+                <span class="method-start">17967 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">17796 ms</span>
+                <span class="method-start">18044 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">divideTest(9, 3, 12, 6, 27, 3)</span>
-                <span class="method-start">18510 ms</span>
+                <span class="method-start">18712 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18705 ms</span>
+                <span class="method-start">18914 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">18780 ms</span>
+                <span class="method-start">18988 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">divideTest(7, 8, 15, -1, 56, 0.875)</span>
-                <span class="method-start">19528 ms</span>
+                <span class="method-start">19670 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19783 ms</span>
+                <span class="method-start">19859 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">19858 ms</span>
+                <span class="method-start">19934 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">divideTest(6, 0, 6, 6, 0, Error)</span>
-                <span class="method-start">20534 ms</span>
+                <span class="method-start">20618 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20721 ms</span>
+                <span class="method-start">20814 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">20796 ms</span>
+                <span class="method-start">20888 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">changeActionTest</span>
-                <span class="method-start">21478 ms</span>
+                <span class="method-start">21646 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23810 ms</span>
+                <span class="method-start">23999 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">23891 ms</span>
+                <span class="method-start">24078 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">floatingPointTest</span>
-                <span class="method-start">24588 ms</span>
+                <span class="method-start">24772 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26888 ms</span>
+                <span class="method-start">27073 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initiate</span>
-                <span class="method-start">26962 ms</span>
+                <span class="method-start">27148 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">clearButtonTest</span>
-                <span class="method-start">27725 ms</span>
+                <span class="method-start">27869 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28265 ms</span>
+                <span class="method-start">28276 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
