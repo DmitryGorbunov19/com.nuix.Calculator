@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-11T18:54:45 EDT" name="CalculatorSmokeTest" finished-at="2021-08-11T18:55:13 EDT" duration-ms="28366">
+    <groups>
+    </groups>
+    <test started-at="2021-08-11T18:54:45 EDT" name="CalculatorFunctionality" finished-at="2021-08-11T18:55:13 EDT" duration-ms="28366">
+      <class name="tests.CalculatorFunctionalityTest">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:45 EDT" name="initiate" finished-at="2021-08-11T18:54:47 EDT" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:47 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T18:54:47 EDT" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:47 EDT" name="tearDown" finished-at="2021-08-11T18:54:47 EDT" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:47 EDT" name="initiate" finished-at="2021-08-11T18:54:48 EDT" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:48 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T18:54:48 EDT" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:48 EDT" name="tearDown" finished-at="2021-08-11T18:54:48 EDT" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:48 EDT" name="initiate" finished-at="2021-08-11T18:54:49 EDT" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:49 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T18:54:49 EDT" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:49 EDT" name="tearDown" finished-at="2021-08-11T18:54:49 EDT" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:49 EDT" name="initiate" finished-at="2021-08-11T18:54:50 EDT" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:50 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T18:54:50 EDT" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.875]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:50 EDT" name="tearDown" finished-at="2021-08-11T18:54:50 EDT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:50 EDT" name="initiate" finished-at="2021-08-11T18:54:51 EDT" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:51 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T18:54:51 EDT" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Error]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:51 EDT" name="tearDown" finished-at="2021-08-11T18:54:51 EDT" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:51 EDT" name="initiate" finished-at="2021-08-11T18:54:52 EDT" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:52 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T18:54:52 EDT" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:52 EDT" name="tearDown" finished-at="2021-08-11T18:54:52 EDT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:52 EDT" name="initiate" finished-at="2021-08-11T18:54:53 EDT" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:53 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T18:54:53 EDT" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:53 EDT" name="tearDown" finished-at="2021-08-11T18:54:53 EDT" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:53 EDT" name="initiate" finished-at="2021-08-11T18:54:54 EDT" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:54 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T18:54:54 EDT" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:54 EDT" name="tearDown" finished-at="2021-08-11T18:54:54 EDT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:54 EDT" name="initiate" finished-at="2021-08-11T18:54:55 EDT" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:55 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T18:54:55 EDT" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.875]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:55 EDT" name="tearDown" finished-at="2021-08-11T18:54:55 EDT" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:55 EDT" name="initiate" finished-at="2021-08-11T18:54:56 EDT" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:56 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T18:54:56 EDT" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Error]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:56 EDT" name="tearDown" finished-at="2021-08-11T18:54:56 EDT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:56 EDT" name="initiate" finished-at="2021-08-11T18:54:57 EDT" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:57 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T18:54:57 EDT" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:57 EDT" name="tearDown" finished-at="2021-08-11T18:54:57 EDT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:57 EDT" name="initiate" finished-at="2021-08-11T18:54:57 EDT" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:57 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T18:54:58 EDT" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:58 EDT" name="tearDown" finished-at="2021-08-11T18:54:58 EDT" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:58 EDT" name="initiate" finished-at="2021-08-11T18:54:58 EDT" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:58 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T18:54:59 EDT" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:59 EDT" name="tearDown" finished-at="2021-08-11T18:54:59 EDT" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:59 EDT" name="initiate" finished-at="2021-08-11T18:54:59 EDT" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:59 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T18:55:00 EDT" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.875]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:00 EDT" name="tearDown" finished-at="2021-08-11T18:55:00 EDT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:00 EDT" name="initiate" finished-at="2021-08-11T18:55:00 EDT" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:00 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T18:55:01 EDT" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Error]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:01 EDT" name="tearDown" finished-at="2021-08-11T18:55:01 EDT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:01 EDT" name="initiate" finished-at="2021-08-11T18:55:01 EDT" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:01 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T18:55:01 EDT" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:01 EDT" name="tearDown" finished-at="2021-08-11T18:55:02 EDT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:02 EDT" name="initiate" finished-at="2021-08-11T18:55:02 EDT" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:02 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T18:55:02 EDT" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:02 EDT" name="tearDown" finished-at="2021-08-11T18:55:03 EDT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:03 EDT" name="initiate" finished-at="2021-08-11T18:55:03 EDT" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:03 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T18:55:03 EDT" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:03 EDT" name="tearDown" finished-at="2021-08-11T18:55:03 EDT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:03 EDT" name="initiate" finished-at="2021-08-11T18:55:04 EDT" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:04 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T18:55:04 EDT" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.875]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:04 EDT" name="tearDown" finished-at="2021-08-11T18:55:05 EDT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:05 EDT" name="initiate" finished-at="2021-08-11T18:55:05 EDT" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:05 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T18:55:05 EDT" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Error]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divideTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:05 EDT" name="tearDown" finished-at="2021-08-11T18:55:06 EDT" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:06 EDT" name="initiate" finished-at="2021-08-11T18:55:06 EDT" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="changeActionTest()[pri:5, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:06 EDT" name="changeActionTest" finished-at="2021-08-11T18:55:09 EDT" duration-ms="2331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeActionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:09 EDT" name="tearDown" finished-at="2021-08-11T18:55:09 EDT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:09 EDT" name="initiate" finished-at="2021-08-11T18:55:09 EDT" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="floatingPointTest()[pri:5, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:09 EDT" name="floatingPointTest" finished-at="2021-08-11T18:55:12 EDT" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- floatingPointTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:12 EDT" name="tearDown" finished-at="2021-08-11T18:55:12 EDT" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:12 EDT" name="initiate" finished-at="2021-08-11T18:55:12 EDT" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method signature="clearButtonTest()[pri:6, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:12 EDT" name="clearButtonTest" finished-at="2021-08-11T18:55:13 EDT" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:13 EDT" name="tearDown" finished-at="2021-08-11T18:55:13 EDT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CalculatorFunctionalityTest -->
+    </test> <!-- CalculatorFunctionality -->
+  </suite> <!-- CalculatorSmokeTest -->
+</testng-results>

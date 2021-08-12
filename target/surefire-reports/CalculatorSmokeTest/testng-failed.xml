@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [CalculatorSmokeTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="4" parallel="tests" name="CalculatorFunctionality(failed)" verbose="0">
+    <classes>
+      <class name="tests.CalculatorFunctionalityTest">
+        <methods>
+          <include name="clearButtonTest"/>
+          <include name="subtractTest"/>
+          <include name="multiplyTest"/>
+          <include name="initiate"/>
+          <include name="changeActionTest"/>
+          <include name="divideTest"/>
+          <include name="tearDown"/>
+          <include name="addTest"/>
+          <include name="floatingPointTest"/>
+        </methods>
+      </class> <!-- tests.CalculatorFunctionalityTest -->
+    </classes>
+  </test> <!-- CalculatorFunctionality(failed) -->
+</suite> <!-- Failed suite [CalculatorSmokeTest] -->
