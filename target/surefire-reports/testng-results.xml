@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+<testng-results ignored="0" total="23" passed="11" failed="12" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-11T18:54:45 EDT" name="CalculatorSmokeTest" finished-at="2021-08-11T18:55:13 EDT" duration-ms="28366">
+  <suite started-at="2021-08-11T23:30:47 EDT" name="CalculatorSmokeTest" finished-at="2021-08-11T23:31:15 EDT" duration-ms="28373">
     <groups>
     </groups>
-    <test started-at="2021-08-11T18:54:45 EDT" name="CalculatorFunctionality" finished-at="2021-08-11T18:55:13 EDT" duration-ms="28366">
+    <test started-at="2021-08-11T23:30:47 EDT" name="CalculatorFunctionality" finished-at="2021-08-11T23:31:15 EDT" duration-ms="28373">
       <class name="tests.CalculatorFunctionalityTest">
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:45 EDT" name="initiate" finished-at="2021-08-11T18:54:47 EDT" duration-ms="2140" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:47 EDT" name="initiate" finished-at="2021-08-11T23:30:49 EDT" duration-ms="1976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:47 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T18:54:47 EDT" duration-ms="222" status="PASS">
+        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:49 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T23:30:49 EDT" duration-ms="240" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -44,18 +44,57 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [6] but found [7]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [6] but found [7]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.CalculatorFunctionalityTest.addTest(CalculatorFunctionalityTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:47 EDT" name="tearDown" finished-at="2021-08-11T18:54:47 EDT" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:49 EDT" name="tearDown" finished-at="2021-08-11T23:30:49 EDT" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:47 EDT" name="initiate" finished-at="2021-08-11T18:54:48 EDT" duration-ms="693" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:49 EDT" name="initiate" finished-at="2021-08-11T23:30:50 EDT" duration-ms="688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:48 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T18:54:48 EDT" duration-ms="200" status="PASS">
+        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:50 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T23:30:50 EDT" duration-ms="208" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,15 +130,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:48 EDT" name="tearDown" finished-at="2021-08-11T18:54:48 EDT" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:50 EDT" name="tearDown" finished-at="2021-08-11T23:30:50 EDT" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:48 EDT" name="initiate" finished-at="2021-08-11T18:54:49 EDT" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:50 EDT" name="initiate" finished-at="2021-08-11T23:30:51 EDT" duration-ms="704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:49 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T18:54:49 EDT" duration-ms="202" status="PASS">
+        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:51 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T23:30:51 EDT" duration-ms="213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,15 +174,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:49 EDT" name="tearDown" finished-at="2021-08-11T18:54:49 EDT" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:51 EDT" name="tearDown" finished-at="2021-08-11T23:30:51 EDT" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:49 EDT" name="initiate" finished-at="2021-08-11T18:54:50 EDT" duration-ms="717" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:51 EDT" name="initiate" finished-at="2021-08-11T23:30:52 EDT" duration-ms="703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:50 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T18:54:50 EDT" duration-ms="207" status="PASS">
+        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:52 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T23:30:52 EDT" duration-ms="205" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,15 +218,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:50 EDT" name="tearDown" finished-at="2021-08-11T18:54:50 EDT" duration-ms="77" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:52 EDT" name="tearDown" finished-at="2021-08-11T23:30:52 EDT" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:50 EDT" name="initiate" finished-at="2021-08-11T18:54:51 EDT" duration-ms="689" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:52 EDT" name="initiate" finished-at="2021-08-11T23:30:53 EDT" duration-ms="691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:51 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T18:54:51 EDT" duration-ms="183" status="PASS">
+        <test-method signature="addTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:53 EDT" name="addTest" data-provider="testData" finished-at="2021-08-11T23:30:53 EDT" duration-ms="197" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -223,15 +262,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:51 EDT" name="tearDown" finished-at="2021-08-11T18:54:51 EDT" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:53 EDT" name="tearDown" finished-at="2021-08-11T23:30:53 EDT" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:51 EDT" name="initiate" finished-at="2021-08-11T18:54:52 EDT" duration-ms="680" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:53 EDT" name="initiate" finished-at="2021-08-11T23:30:54 EDT" duration-ms="702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:52 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T18:54:52 EDT" duration-ms="194" status="PASS">
+        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:54 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T23:30:54 EDT" duration-ms="189" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -264,18 +303,57 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-4] but found [-5]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-4] but found [-5]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.CalculatorFunctionalityTest.subtractTest(CalculatorFunctionalityTest.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subtractTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:52 EDT" name="tearDown" finished-at="2021-08-11T18:54:52 EDT" duration-ms="79" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:54 EDT" name="tearDown" finished-at="2021-08-11T23:30:54 EDT" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:52 EDT" name="initiate" finished-at="2021-08-11T18:54:53 EDT" duration-ms="675" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:54 EDT" name="initiate" finished-at="2021-08-11T23:30:55 EDT" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:53 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T18:54:53 EDT" duration-ms="188" status="PASS">
+        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:55 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T23:30:55 EDT" duration-ms="208" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -311,15 +389,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subtractTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:53 EDT" name="tearDown" finished-at="2021-08-11T18:54:53 EDT" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:55 EDT" name="tearDown" finished-at="2021-08-11T23:30:55 EDT" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:53 EDT" name="initiate" finished-at="2021-08-11T18:54:54 EDT" duration-ms="709" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:55 EDT" name="initiate" finished-at="2021-08-11T23:30:56 EDT" duration-ms="708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:54 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T18:54:54 EDT" duration-ms="186" status="PASS">
+        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:56 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T23:30:56 EDT" duration-ms="192" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -355,15 +433,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subtractTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:54 EDT" name="tearDown" finished-at="2021-08-11T18:54:54 EDT" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:56 EDT" name="tearDown" finished-at="2021-08-11T23:30:56 EDT" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:54 EDT" name="initiate" finished-at="2021-08-11T18:54:55 EDT" duration-ms="726" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:56 EDT" name="initiate" finished-at="2021-08-11T23:30:57 EDT" duration-ms="883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:55 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T18:54:55 EDT" duration-ms="182" status="PASS">
+        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:57 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T23:30:57 EDT" duration-ms="206" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -399,15 +477,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subtractTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:55 EDT" name="tearDown" finished-at="2021-08-11T18:54:55 EDT" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:57 EDT" name="tearDown" finished-at="2021-08-11T23:30:57 EDT" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:55 EDT" name="initiate" finished-at="2021-08-11T18:54:56 EDT" duration-ms="705" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:57 EDT" name="initiate" finished-at="2021-08-11T23:30:58 EDT" duration-ms="698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:56 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T18:54:56 EDT" duration-ms="184" status="PASS">
+        <test-method signature="subtractTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:58 EDT" name="subtractTest" data-provider="testData" finished-at="2021-08-11T23:30:58 EDT" duration-ms="184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -443,15 +521,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subtractTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:56 EDT" name="tearDown" finished-at="2021-08-11T18:54:56 EDT" duration-ms="77" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:58 EDT" name="tearDown" finished-at="2021-08-11T23:30:58 EDT" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:56 EDT" name="initiate" finished-at="2021-08-11T18:54:57 EDT" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:58 EDT" name="initiate" finished-at="2021-08-11T23:30:59 EDT" duration-ms="689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:57 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T18:54:57 EDT" duration-ms="207" status="PASS">
+        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:59 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T23:30:59 EDT" duration-ms="227" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -484,18 +562,57 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [5] but found [8]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [5] but found [8]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.CalculatorFunctionalityTest.multiplyTest(CalculatorFunctionalityTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multiplyTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:57 EDT" name="tearDown" finished-at="2021-08-11T18:54:57 EDT" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:59 EDT" name="tearDown" finished-at="2021-08-11T23:30:59 EDT" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:57 EDT" name="initiate" finished-at="2021-08-11T18:54:57 EDT" duration-ms="690" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:30:59 EDT" name="initiate" finished-at="2021-08-11T23:31:00 EDT" duration-ms="659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:57 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T18:54:58 EDT" duration-ms="198" status="PASS">
+        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:00 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T23:31:00 EDT" duration-ms="205" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -528,18 +645,57 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [8] but found [10]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [8] but found [10]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.CalculatorFunctionalityTest.multiplyTest(CalculatorFunctionalityTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multiplyTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:58 EDT" name="tearDown" finished-at="2021-08-11T18:54:58 EDT" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:00 EDT" name="tearDown" finished-at="2021-08-11T23:31:00 EDT" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:58 EDT" name="initiate" finished-at="2021-08-11T18:54:58 EDT" duration-ms="667" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:00 EDT" name="initiate" finished-at="2021-08-11T23:31:01 EDT" duration-ms="682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:58 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T18:54:59 EDT" duration-ms="196" status="PASS">
+        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:01 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T23:31:01 EDT" duration-ms="192" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -572,18 +728,57 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [27] but found [29]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [27] but found [29]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.CalculatorFunctionalityTest.multiplyTest(CalculatorFunctionalityTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multiplyTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:59 EDT" name="tearDown" finished-at="2021-08-11T18:54:59 EDT" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:01 EDT" name="tearDown" finished-at="2021-08-11T23:31:01 EDT" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:59 EDT" name="initiate" finished-at="2021-08-11T18:54:59 EDT" duration-ms="666" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:01 EDT" name="initiate" finished-at="2021-08-11T23:31:01 EDT" duration-ms="688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:54:59 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T18:55:00 EDT" duration-ms="182" status="PASS">
+        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:01 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T23:31:02 EDT" duration-ms="192" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -616,18 +811,57 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [56] but found [58]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [56] but found [58]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.CalculatorFunctionalityTest.multiplyTest(CalculatorFunctionalityTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multiplyTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:00 EDT" name="tearDown" finished-at="2021-08-11T18:55:00 EDT" duration-ms="79" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:02 EDT" name="tearDown" finished-at="2021-08-11T23:31:02 EDT" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:00 EDT" name="initiate" finished-at="2021-08-11T18:55:00 EDT" duration-ms="703" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:02 EDT" name="initiate" finished-at="2021-08-11T23:31:02 EDT" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:00 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T18:55:01 EDT" duration-ms="182" status="PASS">
+        <test-method signature="multiplyTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:02 EDT" name="multiplyTest" data-provider="testData" finished-at="2021-08-11T23:31:03 EDT" duration-ms="197" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -660,18 +894,57 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0] but found [2]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.CalculatorFunctionalityTest.multiplyTest(CalculatorFunctionalityTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multiplyTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:01 EDT" name="tearDown" finished-at="2021-08-11T18:55:01 EDT" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:03 EDT" name="tearDown" finished-at="2021-08-11T23:31:03 EDT" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:01 EDT" name="initiate" finished-at="2021-08-11T18:55:01 EDT" duration-ms="668" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:03 EDT" name="initiate" finished-at="2021-08-11T23:31:03 EDT" duration-ms="711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:01 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T18:55:01 EDT" duration-ms="200" status="PASS">
+        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:03 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T23:31:04 EDT" duration-ms="188" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -704,18 +977,57 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.2] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.2] but found [0]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.CalculatorFunctionalityTest.divideTest(CalculatorFunctionalityTest.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divideTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:01 EDT" name="tearDown" finished-at="2021-08-11T18:55:02 EDT" duration-ms="77" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:04 EDT" name="tearDown" finished-at="2021-08-11T23:31:04 EDT" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:02 EDT" name="initiate" finished-at="2021-08-11T18:55:02 EDT" duration-ms="701" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:04 EDT" name="initiate" finished-at="2021-08-11T23:31:04 EDT" duration-ms="648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:02 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T18:55:02 EDT" duration-ms="191" status="PASS">
+        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:04 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T23:31:05 EDT" duration-ms="245" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -748,18 +1060,57 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.5] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.5] but found [1]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.CalculatorFunctionalityTest.divideTest(CalculatorFunctionalityTest.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divideTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:02 EDT" name="tearDown" finished-at="2021-08-11T18:55:03 EDT" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:05 EDT" name="tearDown" finished-at="2021-08-11T23:31:05 EDT" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:03 EDT" name="initiate" finished-at="2021-08-11T18:55:03 EDT" duration-ms="713" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:05 EDT" name="initiate" finished-at="2021-08-11T23:31:05 EDT" duration-ms="668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:03 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T18:55:03 EDT" duration-ms="195" status="PASS">
+        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:05 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T23:31:06 EDT" duration-ms="201" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -795,15 +1146,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divideTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:03 EDT" name="tearDown" finished-at="2021-08-11T18:55:03 EDT" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:06 EDT" name="tearDown" finished-at="2021-08-11T23:31:06 EDT" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:03 EDT" name="initiate" finished-at="2021-08-11T18:55:04 EDT" duration-ms="748" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:06 EDT" name="initiate" finished-at="2021-08-11T23:31:06 EDT" duration-ms="682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:04 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T18:55:04 EDT" duration-ms="255" status="PASS">
+        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:06 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T23:31:06 EDT" duration-ms="189" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -836,18 +1187,57 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.875] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.875] but found [1]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.CalculatorFunctionalityTest.divideTest(CalculatorFunctionalityTest.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divideTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:04 EDT" name="tearDown" finished-at="2021-08-11T18:55:05 EDT" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:06 EDT" name="tearDown" finished-at="2021-08-11T23:31:07 EDT" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:05 EDT" name="initiate" finished-at="2021-08-11T18:55:05 EDT" duration-ms="676" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:07 EDT" name="initiate" finished-at="2021-08-11T23:31:07 EDT" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:05 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T18:55:05 EDT" duration-ms="187" status="PASS">
+        <test-method signature="divideTest(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:07 EDT" name="divideTest" data-provider="testData" finished-at="2021-08-11T23:31:07 EDT" duration-ms="196" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -883,43 +1273,119 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divideTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:05 EDT" name="tearDown" finished-at="2021-08-11T18:55:06 EDT" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:07 EDT" name="tearDown" finished-at="2021-08-11T23:31:08 EDT" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:06 EDT" name="initiate" finished-at="2021-08-11T18:55:06 EDT" duration-ms="682" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:08 EDT" name="initiate" finished-at="2021-08-11T23:31:08 EDT" duration-ms="758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="changeActionTest()[pri:5, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:06 EDT" name="changeActionTest" finished-at="2021-08-11T18:55:09 EDT" duration-ms="2331" status="PASS">
+        <test-method signature="changeActionTest()[pri:5, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:08 EDT" name="changeActionTest" finished-at="2021-08-11T23:31:11 EDT" duration-ms="2353" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.01] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.01] but found [1]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.CalculatorFunctionalityTest.changeActionTest(CalculatorFunctionalityTest.java:118)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeActionTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:09 EDT" name="tearDown" finished-at="2021-08-11T18:55:09 EDT" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:11 EDT" name="tearDown" finished-at="2021-08-11T23:31:11 EDT" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:09 EDT" name="initiate" finished-at="2021-08-11T18:55:09 EDT" duration-ms="697" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:11 EDT" name="initiate" finished-at="2021-08-11T23:31:11 EDT" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="floatingPointTest()[pri:5, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:09 EDT" name="floatingPointTest" finished-at="2021-08-11T18:55:12 EDT" duration-ms="2300" status="PASS">
+        <test-method signature="floatingPointTest()[pri:5, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:11 EDT" name="floatingPointTest" finished-at="2021-08-11T23:31:14 EDT" duration-ms="2301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- floatingPointTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:12 EDT" name="tearDown" finished-at="2021-08-11T18:55:12 EDT" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:14 EDT" name="tearDown" finished-at="2021-08-11T23:31:14 EDT" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:12 EDT" name="initiate" finished-at="2021-08-11T18:55:12 EDT" duration-ms="763" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:14 EDT" name="initiate" finished-at="2021-08-11T23:31:14 EDT" duration-ms="721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="clearButtonTest()[pri:6, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:12 EDT" name="clearButtonTest" finished-at="2021-08-11T18:55:13 EDT" duration-ms="540" status="PASS">
+        <test-method signature="clearButtonTest()[pri:6, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:14 EDT" name="clearButtonTest" finished-at="2021-08-11T23:31:15 EDT" duration-ms="407" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [123456789] but found [123466789]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [123456789] but found [123466789]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at tests.CalculatorFunctionalityTest.clearButtonTest(CalculatorFunctionalityTest.java:130)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearButtonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T18:55:13 EDT" name="tearDown" finished-at="2021-08-11T18:55:13 EDT" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorFunctionalityTest@525b461a]" started-at="2021-08-11T23:31:15 EDT" name="tearDown" finished-at="2021-08-11T23:31:15 EDT" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
